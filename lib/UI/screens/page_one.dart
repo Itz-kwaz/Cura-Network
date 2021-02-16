@@ -90,8 +90,9 @@ class _PageOneState extends State<PageOne> {
                       decoration: BoxDecoration(
                           shape: BoxShape.circle,
                           border: Border.all(color: kPrimaryColor, width: 2)),
-                      child: Padding(
-                        padding: const EdgeInsets.all(4.0),
+                      child: Align(
+                        widthFactor: 1.5,
+                        alignment: Alignment(0.5, 0.0),
                         child: Icon(
                           Icons.arrow_back_ios,
                           color: kPrimaryColor,
